@@ -15,7 +15,11 @@ class QuizViewViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    //ボタンを押した時に呼ばれる
+    @IBAction func btnAction(sender: UIButton){
+        print(sender.tag)
+    }
+    
     /*
     // MARK: - Navigation
 
