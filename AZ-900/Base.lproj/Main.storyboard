@@ -43,21 +43,14 @@
             </objects>
             <point key="canvasLocation" x="-23" y="52"/>
         </scene>
-        <!--Quiz View View Controller-->
+        <!--Quiz View Controller-->
         <scene sceneID="4mh-Ah-vxG">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="vVd-Ti-kKw" customClass="QuizViewViewController" customModule="AZ_900" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="vVd-Ti-kKw" customClass="QuizViewController" customModule="AZ_900" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qo5-Mt-8S1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMC-Ip-4hB">
-                                <rect key="frame" x="172" y="113" width="71" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="65b-Ux-Him">
                                 <rect key="frame" x="50" y="187" width="314" height="217"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -79,7 +72,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUj-xP-vkS">
-                                <rect key="frame" x="159" y="627" width="96" height="44"/>
+                                <rect key="frame" x="159" y="632" width="96" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button">
@@ -111,10 +104,25 @@
                                     <action selector="btnActionWithSender:" destination="vVd-Ti-kKw" eventType="touchUpInside" id="jg2-Vv-gIn"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMC-Ip-4hB">
+                                <rect key="frame" x="159" y="112" width="113" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="g4e-ct-3Nh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="answerButton1" destination="bkg-Af-FkI" id="qCP-EA-hA8"/>
+                        <outlet property="answerButton2" destination="z6a-bd-PVO" id="f4h-P0-Lau"/>
+                        <outlet property="answerButton3" destination="CUj-xP-vkS" id="1PI-l0-ndd"/>
+                        <outlet property="answerButton4" destination="was-ci-6ow" id="5Me-a2-9pl"/>
+                        <outlet property="quizNumberLabel" destination="YMC-Ip-4hB" id="NYX-L7-o1e"/>
+                        <outlet property="quizTextView" destination="65b-Ux-Him" id="JJe-0p-s14"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DmH-g3-zvS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
