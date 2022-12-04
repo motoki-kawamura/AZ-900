@@ -16,6 +16,8 @@
 		C8508A6C28BE53FF00DCF8F3 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8508A6B28BE53FF00DCF8F3 /* QuizViewController.swift */; };
 		C8508A6E28BE54F800DCF8F3 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8508A6D28BE54F800DCF8F3 /* ScoreViewController.swift */; };
 		C850DF0D2913B9FB0021CF1D /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = C850DF0C2913B9FA0021CF1D /* quiz.csv */; };
+		C85237DE293C4B2D005BB0BC /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = C85237DC293C4B2D005BB0BC /* correct.png */; };
+		C85237DF293C4B2D005BB0BC /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = C85237DD293C4B2D005BB0BC /* incorrect.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		C8508A6B28BE53FF00DCF8F3 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		C8508A6D28BE54F800DCF8F3 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		C850DF0C2913B9FA0021CF1D /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
+		C85237DC293C4B2D005BB0BC /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		C85237DD293C4B2D005BB0BC /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +76,19 @@
 				C8508A6028BE520300DCF8F3 /* Assets.xcassets */,
 				C8508A6228BE520300DCF8F3 /* LaunchScreen.storyboard */,
 				C8508A6528BE520300DCF8F3 /* Info.plist */,
+				C85237DB293C4B2D005BB0BC /* image */,
 			);
 			path = "AZ-900";
+			sourceTree = "<group>";
+		};
+		C85237DB293C4B2D005BB0BC /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C85237DC293C4B2D005BB0BC /* correct.png */,
+				C85237DD293C4B2D005BB0BC /* incorrect.png */,
+			);
+			name = image;
+			path = ../../../Downloads/image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +149,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C85237DE293C4B2D005BB0BC /* correct.png in Resources */,
+				C85237DF293C4B2D005BB0BC /* incorrect.png in Resources */,
 				C8508A6428BE520300DCF8F3 /* LaunchScreen.storyboard in Resources */,
 				C8508A6128BE520300DCF8F3 /* Assets.xcassets in Resources */,
 				C8508A5F28BE520000DCF8F3 /* Main.storyboard in Resources */,

@@ -111,6 +111,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ogf-an-HWi">
+                                <rect key="frame" x="20" y="100" width="374" height="374"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="g4e-ct-3Nh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -120,6 +124,7 @@
                         <outlet property="answerButton2" destination="z6a-bd-PVO" id="f4h-P0-Lau"/>
                         <outlet property="answerButton3" destination="CUj-xP-vkS" id="1PI-l0-ndd"/>
                         <outlet property="answerButton4" destination="was-ci-6ow" id="5Me-a2-9pl"/>
+                        <outlet property="judgeImageView" destination="ogf-an-HWi" id="GMA-ab-zC8"/>
                         <outlet property="quizNumberLabel" destination="YMC-Ip-4hB" id="NYX-L7-o1e"/>
                         <outlet property="quizTextView" destination="65b-Ux-Him" id="JJe-0p-s14"/>
                         <segue destination="pkm-W2-8Js" kind="presentation" identifier="toScoreVC" id="xpp-rd-4VD"/>
